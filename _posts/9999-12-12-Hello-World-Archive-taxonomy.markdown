@@ -2,7 +2,7 @@
 layout: archive-taxonomy
 title:  "Ya I know you loved this theme!"
 date:   2016-05-12 22:01:43 +0530
-categories: jekyll update
+categories: posts first
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

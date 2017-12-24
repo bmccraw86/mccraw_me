@@ -6,17 +6,17 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 # Copied from: https://mmistakes.github.io/minimal-mistakes/
 
-minimal_mistakes_skin    : "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en"
-title                    : "Mccraw.me"
+title                    : "Mccraw"
 title_separator          : "-"
 name                     : "Brandon McCraw"
 description              : "A Loving Family"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : bmccraw86/mccraw_me # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -84,11 +84,11 @@ analytics:
 # Site Author
 author:
   name             : "Brandon McCraw"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Somewhere"
   email            : "bmccraw86@gmail.com"
-  uri              : "https://mccrw.com"
+  uri              : "https://www.mccraw.me"
   bitbucket        : "bmccraw86"
   codepen          :
   dribbble         :
@@ -246,7 +246,14 @@ defaults:
       type: home
     values:
       sidebar:
-        nav: "home"  
+        nav: "home"
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
   # _posts
   - scope:
       path: ""
