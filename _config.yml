@@ -10,10 +10,10 @@ minimal_mistakes_skin    : "air" # "default" "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "en"
-title                    : "Mccraw"
+title                    : "McCraw"
 title_separator          : "-"
 name                     : "Brandon McCraw"
-description              : "A Loving Family"
+description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : bmccraw86/mccraw_me # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -85,10 +85,10 @@ analytics:
 author:
   name             : "Brandon McCraw"
   avatar           : "assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Technologist"
   location         : "Somewhere"
   email            : "bmccraw86@gmail.com"
-  uri              : "https://www.mccraw.me"
+  uri              : "https://www.mccrw.com"
   bitbucket        : "bmccraw86"
   codepen          :
   dribbble         :
