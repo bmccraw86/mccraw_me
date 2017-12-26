@@ -8,7 +8,7 @@ deploy:
   provider: s3
   access_key_id: $S3_ACCESS_KEY_ID
   secret_access_key: $S3_SECRET_KEY
-  bucket: mccraw.me
+  bucket: www.mccraw.me
   local_dir: _site
   region: us-east-1
   skip_cleanup: true
