@@ -6,6 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 # Copied from: https://mmistakes.github.io/minimal-mistakes/
 
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin    : "air" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -14,7 +15,7 @@ title                    : "McCraw"
 title_separator          : "-"
 name                     : "Brandon McCraw"
 description              : ""
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://www.mccraw.me" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : bmccraw86/mccraw_me # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
