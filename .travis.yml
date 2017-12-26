@@ -2,7 +2,7 @@ language: ruby
 rvm:
   - 2.4.3
 env:
-  - JEKYLL_VERSION=3.5
+  - JEKYLL_VERSION=3.6.2
 sudo: false
 install: gem install jekyll -v 3.5
 script: jekyll build
