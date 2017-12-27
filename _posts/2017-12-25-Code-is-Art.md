@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Code is Art"
+author: Brandon McCraw
 date:   2017-12-25 10:01:43 -0600
 categories: posts blog
 ---
