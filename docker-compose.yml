@@ -6,6 +6,7 @@ services:
     image: jekyll/jekyll:latest
     environment:
       - JEKYLL_VERSION=3.6.2
+      - JEKYLL_ENV=development
     volumes:
       - $PWD:/srv/jekyll
       - $PWD/vendor/bundle:/usr/local/bundle
