@@ -4,6 +4,7 @@ title:  "AAA Logging"
 author: Brandon McCraw
 date:   2017-12-26 22:01:43 -0600
 categories: posts blog
+comments: true
 toc: true
 excerpt: "Make your logging Available, Actionable, Automatable for an easier life."
 header:
