@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Brandon McCraw"
-  avatar           : "assets/images/avatar.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/avatar2.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Technologist"
   location         : "Nashville, TN"
   email            : "brandon@mccraw.me"
