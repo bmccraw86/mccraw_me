@@ -1,4 +1,4 @@
 
 /*
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-  Content-Security-Policy-Report-Only: default-src https://mccraw.me; report_uri https://webhook.site/230e2945-4046-49a3-85be-0cb4657cdcff
+  Content-Security-Policy-Report-Only: default-src https://mccraw.me; report-uri https://webhook.site/230e2945-4046-49a3-85be-0cb4657cdcff
