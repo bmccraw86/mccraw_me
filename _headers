@@ -1,5 +1,5 @@
 
 /*
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-  Content-Security-Policy-Report-Only: default-src 'self'; report-uri https://mccraw.report-uri.com/r/d/csp/reportOnly
+  Content-Security-Policy-Report-Only: default-src 'self'; report-uri https://mccraw.report-uri.com/r/d/csp/reportOnly; report-to csp-endpoint
   Report-To: { "group": "csp-endpoint", "max-age": 10886400, "endpoints": [{ "url": "https://mccraw.report-uri.com/r/d/csp/reportOnly" }]}
