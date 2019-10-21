@@ -1,4 +1,4 @@
 
 /*
   Strict-Transport-Security: max-age=25920000; includeSubDomains; preload
-  Content-Security-Policy-Report-Only: default-src 'self'; report-uri https://mccraw.report-uri.com/r/d/csp/wizard
+  Content-Security-Policy-Report-Only: default-src 'self'; report-uri https://mccraw.report-uri.com/r/d/csp/reportOnly
