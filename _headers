@@ -1,4 +1,4 @@
 
 /*
   Strict-Transport-Security: max-age=25920000; includeSubDomains; preload
-  Content-Security-Policy-Report-Only: default-src 'self'; report-uri https://webhook.site/f262fa73-0517-4bf1-9501-8339ebf48d48
+  Content-Security-Policy-Report-Only: default-src 'self'; report-uri https://mccraw.report-uri.com/r/d/csp/wizard
