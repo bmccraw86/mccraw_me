@@ -1,8 +1,8 @@
 
 /*
   Strict-Transport-Security: max-age=25920000; includeSubDomains; preload
-  Content-Security-Policy-Report-Only: default-src 'self'; report-to csp-endpoint
-  Report-To: { "group": "csp-endpoint", "max-age": 120, "endpoints": [{ "url": "https://mccraw.report-uri.com/r/d/csp/reportOnly" }]},{"group":"default","max_age":31536000,"endpoints":[{"url":"https://mccraw.report-uri.com/a/d/g"}], "include_subdomains":true}
+  Content-Security-Policy: default-src 'self'; object-src 'none'; base-uri 'none'; report-to csp-endpoint
+  Report-To: { "group": "csp-endpoint", "max-age": 120, "endpoints": [{ "url": "https://mccraw.report-uri.com/r/d/csp/enforce" }]},{"group":"default","max_age":31536000,"endpoints":[{"url":"https://mccraw.report-uri.com/a/d/g"}], "include_subdomains":true}
   NEL: {"report_to":"default","max_age": 120,"include_subdomains":true}
 
 /foobar
