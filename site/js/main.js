@@ -4,6 +4,15 @@ if (buildDateEl) {
   buildDateEl.textContent = new Date().toISOString().slice(0, 10);
 }
 
+// Build the email link at runtime so the address isn't sitting in the page
+// source as plain text for scrapers to harvest.
+const emailLink = document.getElementById("email-link");
+if (emailLink) {
+  const address = `${emailLink.dataset.user}@${emailLink.dataset.domain}`;
+  emailLink.href = `mailto:${address}`;
+  emailLink.textContent = address;
+}
+
 // Scroll-reveal for section headers/content — skipped entirely if the
 // visitor prefers reduced motion.
 const prefersReducedMotion = window.matchMedia(
