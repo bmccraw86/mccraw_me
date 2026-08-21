@@ -358,6 +358,11 @@ a { color: inherit; }
   border-bottom: 1px solid var(--panel-border);
 }
 .credential-list li:last-child { border-bottom: none; }
+.credential-link {
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+.credential-link:hover { color: var(--accent-teal); }
 
 /* ---------------------------------------------------
    Contact
